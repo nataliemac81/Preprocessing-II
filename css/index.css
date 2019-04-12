@@ -168,6 +168,24 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header img {
+  width: 100%;
+  border-top: 2px dashed #C0C0C0;
+}
+.header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.header h1 {
+  width: 50%;
+}
+.header a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #212529;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
